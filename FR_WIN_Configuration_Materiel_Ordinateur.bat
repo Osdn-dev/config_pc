@@ -107,8 +107,7 @@ $lines += ""
 $lines += "===== FIN ====="
 
 $texte = $lines -join "`r`n"
-$bureau = [Environment]::GetFolderPath('Desktop')
-$fichier = Join-Path $bureau "config_pc.txt"
+$fichier = Join-Path (Get-Location).Path "config_pc.txt"
 $texte | Out-File -FilePath $fichier -Encoding utf8
 $texte | Set-Clipboard
 
@@ -116,6 +115,6 @@ Write-Host ""
 Write-Host $texte
 Write-Host ""
 Write-Host "Termine. La config est copiee dans le presse-papiers (Ctrl+V)."
-Write-Host "Elle est aussi sauvegardee sur le Bureau : config_pc.txt"
+Write-Host "Elle est aussi sauvegardee dans le dossier courant : config_pc.txt"
 Write-Host ""
 Read-Host "Appuie sur Entree pour fermer"
