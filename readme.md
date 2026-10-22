@@ -94,10 +94,7 @@ SYSTEME : macOS 27.0.1 (build 26A434)
 
 Double-cliquez sur le fichier `.bat` correspondant à la langue souhaitée.
 Le rapport s’affiche dans la fenêtre, est copié dans le presse-papiers et est
-enregistré dans le dossier courant :
-
-- Français : `config_pc.txt`
-- Anglais : `pc_config.txt`
+enregistré dans le dossier courant : `config_pc.txt`
 
 Appuyez sur Entrée à la fin pour fermer la fenêtre.
 
@@ -239,10 +236,7 @@ SYSTEM : macOS 27.0.1 (build 26A434)
 
 Double-click the `.bat` file for the language you want. The report is
 displayed in the window, copied to the clipboard and saved in the current
-working directory:
-
-- French: `config_pc.txt`
-- English: `pc_config.txt`
+working directory : `pc_config.txt`
 
 Press Enter at the end to close the window.
 
